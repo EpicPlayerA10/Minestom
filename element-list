@@ -49,7 +49,6 @@ net.minestom.server.entity.pathfinding
 net.minestom.server.entity.vehicle
 net.minestom.server.event
 net.minestom.server.event.entity
-net.minestom.server.event.handler
 net.minestom.server.event.instance
 net.minestom.server.event.inventory
 net.minestom.server.event.item
@@ -112,6 +111,7 @@ net.minestom.server.recipe
 net.minestom.server.registry
 net.minestom.server.resourcepack
 net.minestom.server.scoreboard
+net.minestom.server.snapshot
 net.minestom.server.sound
 net.minestom.server.statistic
 net.minestom.server.tag
