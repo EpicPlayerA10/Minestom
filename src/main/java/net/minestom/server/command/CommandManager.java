@@ -345,6 +345,12 @@ public final class CommandManager {
                                 continue; // Retrieved argument has already been redirected
 
                             argChildren = new IntArrayList();
+                            System.out.println("Command: "+name);
+                            System.out.println("Argument: "+argument.getId());
+                            System.out.println("Stored nodes: "+storedNodes);
+                            System.out.println("Stored nodes size: "+storedNodes.size());
+                            System.out.println("index: "+index);
+                            System.out.println("i: "+i);
                             lastNodes = storedNodes.get(storedNodes.size() > index ? index : i);
                             foundSharedPart = true;
                         }
